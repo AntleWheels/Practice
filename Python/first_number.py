@@ -1,8 +1,11 @@
-'''number = int(input("Enter the number :"))
+'''
+#It is used to find the first number in the given number 
+number = int(input("Enter the number :"))
 string =str(number)
 first_number =int(string[0])
 print(first_number)'''
 
+#And the below code is used to find the first common divisor for the given number 
 def input_field():
     number = int (input("Enter the number :"))
     return logical_operation(number)
