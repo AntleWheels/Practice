@@ -1,4 +1,4 @@
-'''def input_field():
+def input_field():
     number =int(input("Enter the starting number :"))
     return logical_operation(number)
 def logical_operation(number):
@@ -15,9 +15,11 @@ def output_field(factors,count,number):
     print(f"The factors for the {number} are :",factors,f"This number has {count} factors")
 
 
-input_field()'''
+input_field()
+
 #for a range of numbers
-'''start_number = int(input("Enter the starting number :"))
+'''
+start_number = int(input("Enter the starting number :"))
 end_number = int(input("Enter the ending number :"))
 factors=[]
 for i in range(start_number,end_number+1):
