@@ -44,7 +44,7 @@ def check_package_validity():
     check = date.today()
     if check > valid_till:#We dosnt provide any database when the validity is stored in the database we can able rto save the present date and also can able to check the validity 
         print (f"You have selected a package {package} which have validity for {validity} days")
-        print (f"And you have consumed the validity for {check-valid_from} days")
+        print (f"And you have consumed the validity for {check-valid_till} days")
         return decision()
     else :
         print("Your validity has expired ,Please recharge immediatly")
