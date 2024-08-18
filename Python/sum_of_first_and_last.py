@@ -1,0 +1,5 @@
+number = int(input("Enter the number :"))
+string_number = str(number)
+first_number = int(string_number[0])
+last_number = int(string_number[-1])
+print("The sum of the first and the last number is :",first_number + last_number)
