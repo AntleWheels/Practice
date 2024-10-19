@@ -7,7 +7,6 @@ if input_form == "single":
     total =0
     for i in String_number:
         total =total + int(i)**length
-
     if total ==number :
         print(f"{number} is a Armstrong number")
     else :
